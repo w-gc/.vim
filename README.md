@@ -71,15 +71,9 @@ Installation
 
     $ cd
     $ rm -rf .vim
-    $ git clone https://github.com/gpakosz/.vim.git
-    $ ln -s .vim/.vimrc
-
-For the `heavenly` branch:
-
-    $ cd .vim
-    $ git checkout heavenly
+    $ git clone https://github.com/w-gc/.vim.git
     $ git submodule init && git submodule update
-
+    $ ln -s .vim/.vimrc
 
 ### Windows
 
@@ -94,9 +88,3 @@ Customization
 
 If you want to adjust the configuration, create a `.vimrc.local` file in your
 home directory.
-
-For the `heavenly` branch:
-
-If you want to disable plugins, create a `.pathogen_disabled` file in your home
-and list plugins to be disabled (one plugin per line where plugin corresponds to
-the `bundle/plugin` directory).
